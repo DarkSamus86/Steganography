@@ -4,6 +4,6 @@ project(Steganography C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Steganography src/main.c
-        src/image.c
-        src/lsb.c
-        src/compare.c)
+        src/lsb_steg.c
+        include/lsb_steg.h
+)
